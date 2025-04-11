@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+Welcome to Your Healthcare Platform Project
+📋 Project Overview
+This is a modern healthcare platform front-end built with:
 
-## Project info
+React
 
-**URL**: https://lovable.dev/projects/e8d261b0-a4a5-41f3-a034-1e15d62a0833
+TypeScript
 
-## How can I edit this code?
+Tailwind CSS
 
-There are several ways of editing your application.
+shadcn/ui
 
-**Use Lovable**
+Vite
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e8d261b0-a4a5-41f3-a034-1e15d62a0833) and start prompting.
+It’s designed to be lightweight, responsive, and ideal for building smart, connected healthcare systems—especially for rural and semi-urban communities.
 
-Changes made via Lovable will be committed automatically to this repo.
+🛠 How to Run the Project Locally
+Make sure you have Node.js and npm installed. If not, you can install Node via nvm.
 
-**Use your preferred IDE**
+🚀 Steps to Get Started:
+bash
+Copy
+Edit
+# 1. Clone the repository
+git clone <your-git-url>
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# 2. Move into the project folder
+cd <your-project-name>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# 3. Install dependencies
+npm install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start the development server
 npm run dev
-```
+Your app should now be running locally at http://localhost:5173 or the port Vite assigns.
 
-**Edit a file directly in GitHub**
+💡 Editing the Code
+You can work with this project in any code editor, such as VS Code. Just open the folder and start editing the files inside src/.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Any saved changes will automatically reload in the browser when the dev server is running.
 
-**Use GitHub Codespaces**
+🚢 Deployment
+Once you're ready to go live, you can deploy this project using platforms like:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Vercel
 
-## What technologies are used for this project?
+Netlify
 
-This project is built with:
+Render
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Or your own server setup
 
-## How can I deploy this project?
+Just make sure to run a production build first:
 
-Simply open [Lovable](https://lovable.dev/projects/e8d261b0-a4a5-41f3-a034-1e15d62a0833) and click on Share -> Publish.
+bash
+Copy
+Edit
+npm run build
+This will generate a dist/ folder you can deploy.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🌐 Custom Domain
+If you're deploying on platforms like Vercel or Netlify, you can easily connect a custom domain through their dashboard settings.
